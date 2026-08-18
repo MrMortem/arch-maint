@@ -1,0 +1,13 @@
+# Copy to $XDG_CONFIG_HOME/arch-maint/config.toml (normally
+# ~/.config/arch-maint/config.toml).
+
+# auto, paru, yay, or none
+aur_helper = "auto"
+
+# Defaults to $VISUAL, then $EDITOR, when omitted.
+editor = "nvim"
+
+show_arch_news = true
+snapshot_before_upgrade = false
+dependency_depth = 5
+aur_rpc_url = "https://aur.archlinux.org/rpc/"
